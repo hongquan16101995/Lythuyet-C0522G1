@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    /*label {*/
+    /*  border: 1px solid;*/
+    /*}*/
+  </style>
+</head>
+<body>
+<!--action: chỉ định địa chỉ mà thông tin được gửi đến-->
+<!--method: chỉ định các thức thông tin được gửi đi-->
+<!--get: gửi dữ liệu nhỏ, không bảo mật, thông tin public trên url-->
+<!--post: gửi dữ liệu rất lớn, bảo mật hơn, thông tin được giấu đi-->
+<form action="" method="get">
+<!--  type: định kiểu cho input-->
+<!--  name: xác định tên của trường dữ liệu được gửi về server-->
+<!--  value: giá trị của input khi gửi về server-->
+<!--  id: tạo 1 chỉ mục duy nhất cho thẻ-->
+<!--  class: đánh dấu các thẻ cần cài đặt giống nhau; gom nhóm thẻ html-->
+  <label><input id="name" type="text" name="account"></label>
+  <label><input type="password" name="pass"></label>
+<!--  for: chứa id của thẻ đang được gắn nhãn-->
+  <label for="male">Nam</label><input id="male" type="radio" name="gender" value="Male">
+  <label for="female">Nữ</label><input id="female" type="radio" name="gender" value="Female">
+  <label><input type="checkbox" name="gender1" value="Male">Nam</label>
+  <label><input type="checkbox" name="gender1" value="Female">Nữ</label>
+  <label><input type="submit" value="Submit"></label>
+  <label><input type="reset" value="Reset"></label>
+  <label><input type="button" value="Button"></label>
+  <label><input type="number"></label>
+  <label><input type="date"></label>
+  <label><input type="datetime-local"></label>
+  <label><input type="range" name="range" max="100" min="0"></label>
+<!--  tạo 1 nút bấm với chức năng dựa vào type-->
+  <button type="submit">Submit</button>
+
+<!--  tạo 1 lựa chọn dạng dropdown trong form-->
+  <label>
+    <select name="select">
+      <option value="A">1</option>
+      <option value="B">2</option>
+      <option value="C">3</option>
+    </select>
+  </label>
+  <br>
+  <br>
+  <br>
+  <label for="name">Demo Label</label>
+</form>
+</body>
+</html>

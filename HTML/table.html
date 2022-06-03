@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /*3 loại selector*/
+        /*1. tên thẻ: viết trực tiếp tên thẻ, tất cả thẻ trùng tên sẽ bị tác động*/
+        /*2. id: thẻ nào đang chứa id đó sẽ bị tác động*/
+        /*3. class: các thẻ nào có cùng tên class sẽ bị tác động*/
+        /*tên thẻ: viết trực tiếp tên;
+        id: sử dụng dấu # + tên id;
+        class: sử dụng dấu . + tên class*/
+        table {
+            /*tạo viền cho bảng*/
+            border: 1px solid;
+            width: 400px;
+            height: 300px;
+        }
+
+        tr, th, td {
+            /*tạo viền cho các hàng và ô của bảng*/
+            border: 1px solid;
+        }
+
+        .green {
+            background-color: pink;
+        }
+
+        #demo {
+            background-color: green;
+        }
+    </style>
+<!--    có 3 cách nhúng CSS vào html-->
+<!--    inline: viết trực tiếp trong thẻ với thuộc tính style-->
+<!--    internal: viết trên head của trang, dùng cặp thẻ style-->
+<!--    external: viết trên file .css, nhúng file vào html thông qua thẻ link: <link rel="stylesheet" href="index.css">-->
+</head>
+<body>
+<table>
+    <tr>
+        <th id="demo">STT</th>
+<!--        hợp 2 ô của 2 cột khác nhau; trên cùng 1 hàng-->
+        <th colspan="2">1</th>
+<!--        <th></th>-->
+    </tr>
+    <tr>
+<!--        hợp 2 ô trên 2 hàng khác nhau; trên cùng 1 cột-->
+        <td rowspan="2" style="background-color: blue">Tên</td>
+        <td class="green">CodeGym</td>
+        <td class="green">C522G1</td>
+    </tr>
+    <tr>
+<!--        <td></td>-->
+        <td>CodeGym</td>
+        <td class="green">C422H1</td>
+    </tr>
+</table>
+</body>
+</html>

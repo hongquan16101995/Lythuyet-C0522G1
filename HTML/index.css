@@ -1,0 +1,19 @@
+table {
+    /*tạo viền cho bảng*/
+    border: 1px solid;
+    width: 400px;
+    height: 300px;
+}
+
+tr, th, td {
+    /*tạo viền cho các hàng và ô của bảng*/
+    border: 1px solid;
+}
+
+.green {
+    background-color: pink;
+}
+
+#demo {
+    background-color: green;
+}
