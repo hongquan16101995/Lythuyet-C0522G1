@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="value" onchange="getV()">
+<p id="result"></p>
+<p id="result1"></p>
+</body>
+<script>
+    //input
+    let string = prompt("Nhập vào 1 từ bất kỳ: ")
+
+    //output
+    console.log(string)
+    document.write(string)
+    console.log(alert(string))
+    // console.log(confirm(string))
+
+    function getV() {
+        //input
+        let value = document.getElementById("value").value
+        //output
+        document.getElementById("result").innerText = "<h1>" + value + "</h1>"
+        document.getElementById("result1").innerHTML = "<h1>" + value + "</h1>"
+    }
+</script>
+</html>
