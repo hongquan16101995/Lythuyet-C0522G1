@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<img src="ava.jpg" id="nobita" height="150" width="100"
+     style="border:1px solid; left: 100px; top: 100px; position: absolute"/>
+
+<button onclick="moveLeft()">Left</button>
+<button onclick="moveRight()">Right</button>
+
+
+</body>
+<script>
+    //onclick; onchange; oninput; onmouseover; onmouseout
+    let objImg = document.getElementById("nobita")
+
+    function moveLeft() {
+        objImg.style.left = parseInt(objImg.style.left) - 20 + "px"
+    }
+
+    function moveRight() {
+        objImg.style.left = (objImg.style.left) + 20 + "px"
+    }
+</script>
+</html>

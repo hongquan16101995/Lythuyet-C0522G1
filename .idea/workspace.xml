@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a020c86-0a00-4d39-9fd1-604745cfa226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Variable-Datatype-Operator/operator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Variable-Datatype-Operator/variable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Condition/ava.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Condition/event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Condition/if-else.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Condition/sukienchuot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Condition/switch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Variable-Datatype-Operator/input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nhung-CSS-JS/in-out.html" beforeDir="false" afterPath="$PROJECT_DIR$/Nhung-CSS-JS/in-out.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +38,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Condition" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\Theory\C0522G1\C0522G1\Condition" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ADMIN\Desktop\C0522G1\Nhung-CSS-JS" />
       <recent name="C:\Users\ADMIN\Desktop\C0522G1" />
@@ -60,7 +66,9 @@
       <workItem from="1654478176600" duration="4432000" />
       <workItem from="1654488724711" duration="659000" />
       <workItem from="1654525977752" duration="780000" />
-      <workItem from="1654563597982" duration="4800000" />
+      <workItem from="1654563597982" duration="4825000" />
+      <workItem from="1654650530771" duration="4117000" />
+      <workItem from="1654736489548" duration="3893000" />
     </task>
     <task id="LOCAL-00001" summary="js overview">
       <created>1654488771915</created>
@@ -69,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654488771915</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="variable - operator">
+      <created>1654568985325</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654568985325</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="js overview" />
-    <option name="LAST_COMMIT_MESSAGE" value="js overview" />
+    <MESSAGE value="variable - operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="variable - operator" />
   </component>
 </project>
