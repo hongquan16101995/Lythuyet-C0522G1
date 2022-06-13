@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let year = prompt("Enter the year: ")
+    if (Number(year) < 0) {
+        alert("Not is year")
+    } else {
+        let checkYear = year % 100 === 0
+        let century = parseInt(year / 100)
+        if (checkYear) {
+            alert("The century of the year is: " + century)
+        } else {
+            alert("The century of the year is: " + (century + 1))
+        }
+    }
+</script>
+</html>
