@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a020c86-0a00-4d39-9fd1-604745cfa226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Loop/debug.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Loop/debug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Loop/quizz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Loop/tinh-the-ky.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/declare-array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/element-in-array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/mang-da-chieu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,8 @@
       <workItem from="1654736489548" duration="3912000" />
       <workItem from="1654760562119" duration="15000" />
       <workItem from="1654823848666" duration="4344000" />
-      <workItem from="1655082125368" duration="4098000" />
+      <workItem from="1655082125368" duration="4114000" />
+      <workItem from="1655168607793" duration="3970000" />
     </task>
     <task id="LOCAL-00001" summary="js overview">
       <created>1654488771915</created>
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654828241929</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="debug">
+      <created>1655087719187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655087719187</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +117,7 @@
     <MESSAGE value="variable - operator" />
     <MESSAGE value="condition" />
     <MESSAGE value="loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="loop" />
+    <MESSAGE value="debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug" />
   </component>
 </project>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    //mảng Js chứa được tất cả các kld mà Js có thể khai báo
+    let arr = [1, "a", true, undefined, null, {a: 1, b: 2}]
+    for (let i = 0; i < arr.length; i++) {
+        // console.log(typeof arr[i])
+    }
+
+    //duyệt mảng
+    //for...in: trả về các chỉ số index của các ptu
+    for (let index in arr) {
+        // console.log(index)
+    }
+    // console.log("----------")
+    //for...of: trả về giá trị các ptu trong mảng
+    for (let value of arr) {
+        // console.log(value)
+    }
+    // console.log("----------")
+    //for và while
+    for (let i = 0; i < arr.length; i++) {
+        // console.log("Vị trí thứ " + i + "; giá trị là: " + arr[i])
+    }
+
+    let i = 0
+    while (i < arr.length) {
+        // console.log("Vị trí thứ " + i + "; giá trị là: " + arr[i])
+        i++
+    }
+
+    //forEach
+    arr.forEach((value,index) => {
+        console.log(value + "; index nè: " + index)
+    })
+
+
+</script>
+</html>

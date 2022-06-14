@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  //cách 1: khai báo mảng kiểu object literal
+  //các phần tử trong mảng viết cách nhau bằng dấu phẩy
+  let arr = [10,9,8,7,6]
+  //chỉ số các phần tử là: 0,1,2,3,4
+  //vị trí mà mình nhín thấy là: 1,2,3,4,5
+  //length là: 5
+  //cách truy xuất length
+  // console.log(arr.length)
+  //cách truy xuất giá trị tại 1 vị trí trong mảng
+  // console.log(arr[2])
+
+  //cách 2: khai báo mảng sử dụng từ khóa new
+  //Array: là 1 lớp có sẵn trong Js, chứa các thuộc tính và phương thức để thao tác với mảng
+  //khởi tạo với các gtri có sẵn
+  let array = new Array(1,2,3,4)
+  //khởi tạo với độ dài của mảng; các phần tử sẽ là empty
+  let array1 = new Array(5)
+  console.log(array.length)
+  console.log(array1.length)
+  console.log(array1)
+  console.log(array)
+  //gán giá trị 1000 cho phần tử có index = 100 trong mảng
+  array[100] = 1000
+  console.log(array)
+</script>
+</html>
