@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    sum1()
+    //không tham số, không giá tri trả về
+    function sum1() {
+        let a = 10
+        let b = 20
+        document.write(a + b + "<br>")
+    }
+
+    // sum1()
+
+    //không tham số, có giá trị trả về
+    function sum2() {
+        let a = 10
+        let b = 20
+        return (a + b)
+    }
+
+    let result = sum2()
+    document.write(result + "<br>")
+
+    //có tham số, không giá trị trả về
+    let a = 10
+    let b = 20
+
+    function sum3(a, b) {
+        document.write(a + b + "<br>")
+    }
+
+    sum3(a, b)
+
+    //có tham số, có giá trị trả về
+    let a1 = 10
+    let b1 = 20
+
+    function sum4(x, y) {
+        return (x + y)
+    }
+    let result1 = sum4(a1, b1)
+    document.write(result1)
+</script>
+</html>

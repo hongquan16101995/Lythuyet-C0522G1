@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function swap(a, b) {
+        num1 = b
+        num2 = a
+    }
+
+    let num1 = 10
+    let num2 = 20
+    swap(num1, num2)
+    console.log(num1 + " ; " + num2)
+
+    function swap1(arr) {
+        let temp = arr[0]
+        arr[0] = arr[1]
+        arr[1] = temp
+    }
+
+    let array = [10, 20]
+    swap1(array)
+    console.log(array)
+
+    let a = [1,2,3]
+    //function annonymus: hàm nặc danh hoặc hàm ẩn danh
+    a.sort(function (a,b) { return a - b })
+    //function arrow: hàm mũi tên
+    a.sort((a,b) => { return a -b })
+    //chức năng chính: dùng làm tham số cho hàm khác
+
+</script>
+</html>
