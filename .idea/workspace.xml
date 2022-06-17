@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a020c86-0a00-4d39-9fd1-604745cfa226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Function/declare.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function/loai-ham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function/swap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/dequy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/luyentap2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/quanlysanpham.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Condition" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../C0422H1/Module1/JavaScript" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -71,7 +71,8 @@
       <workItem from="1655082125368" duration="4114000" />
       <workItem from="1655168607793" duration="3988000" />
       <workItem from="1655256451428" duration="2866000" />
-      <workItem from="1655341226230" duration="4067000" />
+      <workItem from="1655341226230" duration="4320000" />
+      <workItem from="1655427423129" duration="1687000" />
     </task>
     <task id="LOCAL-00001" summary="js overview">
       <created>1654488771915</created>
@@ -122,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655265410328</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="function">
+      <created>1655346599060</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655346599061</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +144,7 @@
     <MESSAGE value="debug" />
     <MESSAGE value="array" />
     <MESSAGE value="array - ham co san" />
-    <option name="LAST_COMMIT_MESSAGE" value="array - ham co san" />
+    <MESSAGE value="function" />
+    <option name="LAST_COMMIT_MESSAGE" value="function" />
   </component>
 </project>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  //đệ quy tức là gọi hàm trong chính thân hàm của nó nhưng với tham số khác
+  //đệ quy sẽ làm giảm tốc độ hoặc hiệu suất hệ thống
+  //nên trên thực tế nếu không cần thiết sẽ ít dùng
+  function giaiThua(number) {
+    if (number === 2){
+      return 2;
+    }
+    return number * giaiThua(number - 1)
+  }
+
+  console.log(giaiThua(5))
+  //5 * 4 * 3 * 2 = 120
+</script>
+</html>
