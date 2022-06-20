@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a020c86-0a00-4d39-9fd1-604745cfa226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Function/dequy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function/luyentap2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function/quanlysanpham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,6 +49,16 @@
       <recent name="C:\Users\ADMIN\Desktop\C0522G1" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0522G1/OOP/demo.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.demo.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +82,8 @@
       <workItem from="1655168607793" duration="3988000" />
       <workItem from="1655256451428" duration="2866000" />
       <workItem from="1655341226230" duration="4320000" />
-      <workItem from="1655427423129" duration="1687000" />
+      <workItem from="1655427423129" duration="1946000" />
+      <workItem from="1655686641086" duration="3275000" />
     </task>
     <task id="LOCAL-00001" summary="js overview">
       <created>1654488771915</created>
@@ -130,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655346599061</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="function 2">
+      <created>1655432408002</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655432408002</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +163,7 @@
     <MESSAGE value="array" />
     <MESSAGE value="array - ham co san" />
     <MESSAGE value="function" />
-    <option name="LAST_COMMIT_MESSAGE" value="function" />
+    <MESSAGE value="function 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="function 2" />
   </component>
 </project>

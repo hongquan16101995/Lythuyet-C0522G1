@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  //khởi tạo đối tượng bằng object literals
+  let object = {name: "Hiếu", weight: 70, height: 1.70}
+
+  //2 cách khởi tạo lớp trong Js
+  //cách 1: function
+  //tên lớp là Human
+  //name, weight, height là các thuộc tính
+  //eat(), drink() là các phương thức (hành vi)
+  function Human(name, weight, height) {
+      this.name = name
+      this.weight = weight
+      this.height = height
+
+      this.eat = function () {
+          console.log(this.name + " có thể ăn")
+      }
+
+      this.drink = function () {
+          console.log(this.name + " có thể uống")
+      }
+  }
+  //khởi tạo đối tương từ class Human
+  let human1 = new Human("Hiếu", 70, 1.7)
+  human1.eat()
+  human1.drink()
+  console.log(human1.name)
+</script>
+</html>
