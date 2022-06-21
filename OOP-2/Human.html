@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    //khởi tạo 1 class mới sử dụng từ khóa class <tên class>
+    class Human {
+        //khai báo các thuộc tính cần có của lớp
+        name
+        weight
+        height
+
+        //hàm khởi tạo để sử dụng tạo ra đối tượng từ lớp Human
+        //hàm có 3 tham số, truyền vào 3 giá trị để gán cho 3 thuộc tính khi tạo 1 đối tượng cụ thể
+        constructor(name, weight, height) {
+            //gán giá trị name truyền vào cho thuộc tính name
+            this.name = name
+            this.weight = weight
+            this.height = height
+        }
+
+        //phương thức để lấy giá trị của thuộc tính height cuẩ đối tượng tại thời điểm gọi phương thức
+        //phương thức gọi thông qua đối tượng
+        getHeight() {
+            //phương thức có giá trị trả về
+            return this.height
+        }
+
+        //phương thức để cài đặt lại giá trị của thuộc tính height của 1 đối tượng tại thời điểm gọi
+        setHeight(height) {
+            //gán lại giá trị của thuộc tính height với giá trị mới được truyền vào
+            this.height = height
+        }
+    }
+
+    let dung = new Human("Dũng", 90, 1.7)
+    dung.getHeight()
+    dung.setHeight(1.65)
+    dung.getHeight()
+</script>
+</html>
