@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvas" width="800" height="500" style="border: 1px solid"></canvas>
+<button onclick="start()">Start</button>
+<button onclick="stop()">Stop</button>
+</body>
+<script>
+    class Rectangle {
+        width
+        height
+        color
+
+        constructor(width, height) {
+            this.width = width
+            this.height = height
+        }
+
+        getArea() {
+            return this.width * this.height
+        }
+
+        getPerimeter() {
+            return (this.width + this.height) * 2
+        }
+
+        setColor(color) {
+            this.color = color
+        }
+
+        draw(x, y) {
+            let ctx = document.getElementById("canvas").getContext("2d")
+            ctx.fillStyle = this.color
+            ctx.fillRect(x, y, this.width, this.height)
+        }
+    }
+
+    let rect = new Rectangle(200, 80)
+    rect.setColor("red")
+    let ctx = document.getElementById("canvas").getContext("2d")
+    let x = 100
+    let y = 100
+    rect.draw(x, y)
+
+    //hàm thay đổi giá trị của biến y
+    function speed(speed) {
+        y += speed
+        x += 5
+    }
+
+    function move() {
+        //hàm xóa màn hình canvas
+        ctx.clearRect(0, 0, 800, 500)
+        //check điều kiện nếu chỉ số biến y đạt 400
+        //thì set lại về 100 để chạy tiếp
+        if (x < 400) {
+            speed(5)
+        } else {
+            rect.setColor("green")
+            speed(-5)
+        }
+        //gọi hàm để thay đổi chỉ số biến y
+        // speed(5)
+        //hàm vẽ hình chữ nhật với chỉ số y
+        rect.draw(x, y)
+
+    }
+
+    //tạo 1 biến chứa sự kiện setInterval
+    let interval
+
+    function start() {
+        //đặt sự kiện setInterval cho biến interval
+        //time bằng 50 milisecond
+        //tác động đến hàm move()
+        interval = setInterval(move, 50)
+    }
+
+    function stop() {
+        //xóa sự kiện setInterval
+        clearInterval(interval)
+    }
+
+</script>
+</html>

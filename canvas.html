@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvas" width="800" height="500" style="border: 1px solid"></canvas>
+</body>
+<script>
+  let ctx = document.getElementById("canvas").getContext("2d")
+
+  //vẽ đường thẳng
+  //vị trí bắt đầu đường thẳng
+  ctx.moveTo(50, 50)
+  //vị trí kết thúc đường thẳng
+  ctx.lineTo(200, 100)
+  //vẽ
+  ctx.stroke()
+
+  //vẽ hình chữ nhật
+  //tham số 1 và 2 là chỉ số x và y theo 2 phương của điểm trên bên trái hcn
+  //tham số 3 là chiều rộng theo phương x
+  //tham số 4 là chiều dài theo phương y
+  //đổi màu dùng: fillStyle
+  ctx.fillStyle = "#ebf1f1"
+  //vẽ hình cn có viền
+  ctx.lineWidth = 10
+  ctx.strokeRect(200, 200, 200, 80)
+  //vẽ hình chữ nhật đổ đầy
+  ctx.fillRect(300, 200, 200, 80)
+
+  //vẽ hình tròn
+  //tham số 1 và 2 là chỉ số x và y theo 2 phương của tâm
+  //tham số 3 là bán kính hình tròn
+  //2 tham số cuối là mặc định: 0, Math.PI * 2
+  //hàm để bắt đầu vẽ
+  ctx.beginPath()
+  //hàm vẽ hình tròn
+  ctx.arc(500, 300, 80, 0, Math.PI*2)
+  //hàm để đổ đầy vào hình tròn
+  // ctx.fill()
+  //vẽ hình tròn có viền, k đổ đầy
+  ctx.stroke()
+  //hàm kết thúc vẽ
+  ctx.closePath()
+</script>
+</html>
