@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a020c86-0a00-4d39-9fd1-604745cfa226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Variable-Datatype-Operator/canvas-oop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/canvas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLSP/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLSP/QLSP.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLSP/QLSP.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLSP/QLSP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tonghop/array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas-oop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Canvas/canvas-oop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Canvas/canvas.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +48,26 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\Theory\C0522G1" />
       <recent name="C:\Users\ADMIN\Desktop\Theory\C0522G1\C0522G1\Condition" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\Theory\C0522G1\Canvas" />
+      <recent name="C:\Users\ADMIN\Desktop\Theory\C0522G1" />
       <recent name="C:\Users\ADMIN\Desktop\C0522G1\Nhung-CSS-JS" />
       <recent name="C:\Users\ADMIN\Desktop\C0522G1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.array.html">
+    <configuration name="array.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0522G1/Tonghop/array.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0522G1/OOP/demo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.array.html" />
         <item itemvalue="JavaScript Debug.demo.html" />
       </list>
     </recent_temporary>
@@ -84,7 +98,8 @@
       <workItem from="1655427423129" duration="1946000" />
       <workItem from="1655686641086" duration="3466000" />
       <workItem from="1655773866734" duration="4769000" />
-      <workItem from="1655861340393" duration="2850000" />
+      <workItem from="1655861340393" duration="3148000" />
+      <workItem from="1655946138611" duration="3308000" />
     </task>
     <task id="LOCAL-00001" summary="js overview">
       <created>1654488771915</created>
@@ -163,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655778687458</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="canvas - check va cham">
+      <created>1655864504439</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655864504439</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +203,7 @@
     <MESSAGE value="function 2" />
     <MESSAGE value="oop" />
     <MESSAGE value="oop buổi 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop buổi 2" />
+    <MESSAGE value="canvas - check va cham" />
+    <option name="LAST_COMMIT_MESSAGE" value="canvas - check va cham" />
   </component>
 </project>
